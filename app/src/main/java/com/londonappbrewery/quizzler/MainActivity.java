@@ -92,7 +92,7 @@ public class MainActivity extends Activity {
             alert.setCancelable(false);
             alert.setTitle("Game Over");
             alert.setMessage("Your Score is " + score);
-            alert.setPositiveButton("Close Application", new DialogInterface.OnClickListener() {
+            alert.setPositiveButton("Close Application ", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     finish();;
